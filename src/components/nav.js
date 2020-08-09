@@ -294,7 +294,7 @@ class Nav extends Component {
                 <CSSTransition classNames={fadeDownClass} timeout={timeout}>
                   <div style={{ transitionDelay: `${isHome ? navLinks.length * 100 : 0}ms` }}>
                     <StyledResumeButton
-                      href="/resume.pdf"
+                      href="/Shiv_Gunter_Godhia_CV.pdf"
                       target="_blank"
                       rel="nofollow noopener noreferrer">
                       Resume
