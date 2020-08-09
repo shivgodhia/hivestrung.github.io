@@ -1,7 +1,7 @@
 ---
 date: '3'
 title: 'OctoProfile'
-cover: './octoprofile.png'
+cover: './demo.png'
 github: 'https://github.com/bchiang7/octoprofile'
 external: 'https://octoprofile.now.sh'
 tech:
