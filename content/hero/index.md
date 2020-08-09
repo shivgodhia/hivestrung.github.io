@@ -1,8 +1,8 @@
 ---
 title: 'Hi, my name is'
-name: 'Brittany Chiang'
-subtitle: 'I build things for the web.'
+name: 'Shiv Godhia'
+subtitle: 'I build things.'
 buttonText: 'Get In Touch'
 ---
 
-I'm a software engineer based in Boston, MA specializing in building (and occasionally designing) exceptional websites, applications, and everything in between.
+I’m an undergraduate studying [Computer Science](https://www.cst.cam.ac.uk/teaching) at the [University of Cambridge](https://www.cam.ac.uk/). I aspire to be a Software Engineer.
