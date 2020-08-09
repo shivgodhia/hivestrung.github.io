@@ -2,18 +2,16 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - JavaScript (ES6+)
-  - HTML & (S)CSS
-  - React
-  - Vue
-  - Node.js
-  - WordPress
+  - Java
+  - Python
+  - C, C++
+  - SML
+  - SQL
+  - R
 ---
 
-Hello! I'm Brittany, a software engineer based in Boston, MA.
+Hello! I’m Shiv, an undergraduate studying [Computer Science](https://www.cst.cam.ac.uk/teaching) at the [University of Cambridge](https://www.cam.ac.uk/). Currently, I'm interning at Amazon's Alexa team this summer.
 
-I enjoy creating things that live on the internet, whether that be websites, applications, or anything in between. My goal is to always build products that provide pixel-perfect, performant experiences.
+I'm particularly interested in Software Engineering and Natural Language Processing, and am deeply passionate about delivering a great experience to the user.
 
-Shortly after graduating from [Northeastern University](https://www.ccis.northeastern.edu/), I joined the engineering team at [Upstatement](https://www.upstatement.com/) where I work on a wide variety of interesting and meaningful projects on a daily basis.
-
-Here are a few technologies I've been working with recently:
+Here are a few technologies I've worked with:
