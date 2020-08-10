@@ -1,19 +1,20 @@
 import { hex2rgba } from '@utils';
+const config = require('../config');
 
-const ACCENT = '#64ffda';
-const DARK_BG = '#020c1b';
-const BG = '#0a192f';
+const ACCENT = config.colors.green;
+const DARK_BG = config.colors.darkNavy;
+const BG = config.colors.navy;
 
 const theme = {
   colors: {
     darkNavy: DARK_BG,
     navy: BG,
-    lightNavy: '#172a45',
-    lightestNavy: '#303C55',
-    slate: '#8892b0',
-    lightSlate: '#a8b2d1',
-    lightestSlate: '#ccd6f6',
-    white: '#e6f1ff',
+    lightNavy: config.colors.lightNavy, // project cards
+    lightestNavy: config.colors.lightestNavy,
+    slate: config.colors.slate, // i build things
+    lightSlate: config.colors.lightSlate, // side stuff
+    lightestSlate: config.colors.lightestSlate, // title of featured proj, job position
+    white: config.colors.white,
     green: ACCENT,
     transGreen: hex2rgba(ACCENT, 0.07),
     shadowNavy: hex2rgba(DARK_BG, 0.7),

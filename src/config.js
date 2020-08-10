@@ -1,38 +1,32 @@
 module.exports = {
-  siteTitle: 'Brittany Chiang | Software Engineer',
+  siteTitle: 'Shiv Godhia | Computer Scientist',
   siteDescription:
-    'Brittany Chiang is a software engineer based in Boston, MA who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
-  siteKeywords:
-    'Brittany Chiang, Brittany, Chiang, bchiang7, software engineer, front-end engineer, web developer, javascript, northeastern',
-  siteUrl: 'https://brittanychiang.com',
+    'Shiv Godhia is a software engineer based in Cambridge, UK who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+  siteKeywords: 'Shiv, Godhia, hivestrung, software engineer, SWE, SDE, Amazon, cambridge, compsci',
+  siteUrl: 'https://www.shivgodhia.tech/',
   siteLanguage: 'en_US',
   googleAnalyticsID: 'UA-45666519-2',
   googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
-  name: 'Brittany Chiang',
-  location: 'Boston, MA',
-  email: 'brittany.chiang@gmail.com',
-  github: 'https://github.com/bchiang7',
-  twitterHandle: '@bchiang7',
+  name: 'Shiv Godhia',
+  location: 'Cambridge, UK',
+  email: 'shivgodhia@gmail.com',
+  github: 'https://github.com/hivestrung',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
+      url: 'https://github.com/hivestrung',
     },
     {
       name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://www.linkedin.com/in/shivgodhia',
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
+      url: 'https://www.instagram.com/hivestrung',
     },
     {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
+      name: 'Facebook',
+      url: 'https://www.facebook.com/hivestrung',
     },
   ],
 
@@ -58,9 +52,15 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    green: '#64ffda',
+    green: '#64ffda', // accet colour
     navy: '#0a192f',
     darkNavy: '#020c1b',
+    lightNavy: '#172a45', // project cards
+    lightestNavy: '#303C55',
+    slate: '#8892b0', // i build things
+    lightSlate: '#a8b2d1', // side stuff
+    lightestSlate: '#ccd6f6', // title of featured proj, job position
+    white: '#e6f1ff',
   },
 
   srConfig: (delay = 200) => ({
