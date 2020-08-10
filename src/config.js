@@ -52,10 +52,10 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    green: '#fcbf49', // accet colour
-    navy: '#001724', // bg
-    darkNavy: '#000A0F', // loading bg
-    lightNavy: '#001E2E', // project cards
+    green: '#FCDF49', // accet colour
+    navy: '#020c1b', // bg
+    darkNavy: '#020c1b', // loading bg
+    lightNavy: '#041630', // project cards
     lightestNavy: '#303C55', // random lines
     slate: '#8892b0', // i build things
     lightSlate: '#a8b2d1', // side stuff
