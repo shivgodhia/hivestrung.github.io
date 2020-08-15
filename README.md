@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/logo.png" width="100" />
+  <img alt="Logo" src="./src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
   shivgodhia.tech
@@ -10,7 +10,7 @@
   Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, credits go to <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> for the awesome website
 </p>
 
-![demo](https://raw.githubusercontent.com/bchiang7/v4/master/src/images/demo.png)
+![demo](./src/images/demo.png)
 
 ## 🚨 Forking this repo (please read!)
 
