@@ -72,7 +72,7 @@ const StyledTechList = styled.ul`
   display: flex;
   flex-wrap: wrap;
   padding: 0;
-  margin: 25px 0 10px;
+  margin: 25px 15px 10px;
   list-style: none;
 
   li {
@@ -113,12 +113,12 @@ const StyledFeaturedImg = styled(Img)`
   border-radius: ${theme.borderRadius};
   position: relative;
   mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1) brightness(90%);
+  filter: grayscale(50%) contrast(1) brightness(90%);
   ${media.tablet`
     object-fit: cover;
     width: auto;
     height: 100%;
-    filter: grayscale(100%) contrast(1) brightness(80%);
+    filter: grayscale(50%) contrast(1) brightness(80%);
   `};
 `;
 const StyledImgContainer = styled.a`
@@ -127,7 +127,7 @@ const StyledImgContainer = styled.a`
   grid-row: 1 / -1;
   position: relative;
   z-index: 1;
-  background-color: ${colors.green};
+  background-color: ${colors.slate};
   border-radius: ${theme.radius + 1}px;
   transition: ${theme.transition};
   ${media.tablet`height: 100%;`};
