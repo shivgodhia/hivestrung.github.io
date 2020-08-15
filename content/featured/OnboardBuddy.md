@@ -1,6 +1,6 @@
 ---
 date: '2'
-title: 'Onboard Buddy'
+title: 'Onboard Buddy Alexa Skill'
 cover: './OnboardBuddy-demo.png'
 github: 'https://github.com/Skyr-High-Labs/alexa-hackathon-2020'
 external: 'https://can1b.awsapps.com/workdocs/index.html#/share/document/ddc28d044f9b295fa72a537b509cfd2e9a83b3434fcf87c8050559649a71acec'
