@@ -10,7 +10,7 @@ skills:
   - R
 ---
 
-Hello! I’m Shiv, an undergraduate studying [Computer Science](https://www.cst.cam.ac.uk/teaching) at the [University of Cambridge](https://www.cam.ac.uk/). Currently, I'm interning at Amazon's Alexa team this summer.
+Hello! I’m Shiv, an undergraduate studying [Computer Science](https://www.cst.cam.ac.uk/teaching) at the [University of Cambridge](https://www.cam.ac.uk/). This summer, I've been interning at [Amazon's Alexa team](https://www.amazon.jobs/en/business_categories/alexa).
 
 I'm particularly interested in Software Engineering and Natural Language Processing, and am deeply passionate about delivering a great experience to the user.
 
