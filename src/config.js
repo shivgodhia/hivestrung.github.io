@@ -52,14 +52,14 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    green: '#FCDF49', // accet colour
-    navy: '#020c1b', // bg
-    darkNavy: '#020c1b', // loading bg
-    lightNavy: '#041630', // project cards
-    lightestNavy: '#303C55', // random lines
-    slate: '#8892b0', // i build things
-    lightSlate: '#a8b2d1', // side stuff
-    lightestSlate: '#ccd6f6', // title of featured proj, job position
+    green: '#FCDF49', // accet colour // impt
+    navy: '#020c1b', // bg // impt
+    darkNavy: '#020c1b', // loading bg // somewhat impt
+    lightNavy: '#041630', // project cards // impt
+    lightestNavy: '#303C55', // random lines // don't change
+    slate: '#8892b0', // i build things // don't change much
+    lightSlate: '#a8b2d1', // side stuff // don't change much
+    lightestSlate: '#ccd6f6', // title of featured proj, job position // don't change much
     white: '#e6f1ff',
   },
 
