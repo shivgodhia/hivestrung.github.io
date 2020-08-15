@@ -117,26 +117,21 @@ const StyledTags = styled.ul`
   }
 `;
 
-const PensievePage = ({ location, data }) => {
+const PostsPage = ({ location, data }) => {
   const posts = data.allMarkdownRemark.edges;
 
   return (
     <Layout location={location}>
       <Helmet>
-        <title>Pensieve</title>
-        <link rel="canonical" href="https://shivgodhia.tech/pensieve" />
+        <title>Posts</title>
+        <link rel="canonical" href="https://shivgodhia.tech/posts" />
       </Helmet>
 
       <StyledMainContainer>
         <header>
-          <h1 className="big-title">Pensieve</h1>
+          <h1 className="big-title">Things I think about</h1>
           <p className="subtitle">
-            <a
-              href="https://www.wizardingworld.com/writing-by-jk-rowling/pensieve"
-              target="_blank"
-              rel="noopener noreferrer">
-              a collection of memories
-            </a>
+            Here's where I share about what I'm learning. I hope that you'll join the conversation.
           </p>
         </header>
 
@@ -167,7 +162,7 @@ const PensievePage = ({ location, data }) => {
                         <StyledTags>
                           {tags.map((tag, i) => (
                             <li key={i}>
-                              <Link to={`/pensieve/tags/${kebabCase(tag)}/`}>#{tag}</Link>
+                              <Link to={`/posts/tags/${kebabCase(tag)}/`}>#{tag}</Link>
                             </li>
                           ))}
                         </StyledTags>
@@ -183,12 +178,12 @@ const PensievePage = ({ location, data }) => {
   );
 };
 
-PensievePage.propTypes = {
+PostsPage.propTypes = {
   location: PropTypes.object.isRequired,
   data: PropTypes.object.isRequired,
 };
 
-export default PensievePage;
+export default PostsPage;
 
 export const pageQuery = graphql`
   {

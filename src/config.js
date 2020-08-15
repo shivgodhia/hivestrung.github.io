@@ -1,7 +1,7 @@
 module.exports = {
   siteTitle: 'Shiv Godhia | Computer Scientist',
   siteDescription:
-    'Shiv Godhia is a software engineer based in Cambridge, UK who specializes in building (and occasionally designing) exceptional websites, applications, and everything in between.',
+    'Shiv Godhia is a Computer Scientist and Software Engineer from the University of Cambridge',
   siteKeywords: 'Shiv, Godhia, hivestrung, software engineer, SWE, SDE, Amazon, cambridge, compsci',
   siteUrl: 'https://www.shivgodhia.tech/',
   siteLanguage: 'en_US',
@@ -40,7 +40,7 @@ module.exports = {
       url: '/#jobs',
     },
     {
-      name: 'Work',
+      name: 'Projects',
       url: '/#projects',
     },
     {
