@@ -1,7 +1,7 @@
 ---
 date: '99'
 title: 'Template'
-cover: './template_demo.png'
+cover: './template-demo.png'
 github: 'https://github.com/bchiang7/octoprofile'
 external: 'https://octoprofile.now.sh'
 tech:
