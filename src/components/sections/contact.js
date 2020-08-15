@@ -3,8 +3,7 @@ import PropTypes from 'prop-types';
 import sr from '@utils/sr';
 import { srConfig, email } from '@config';
 import styled from 'styled-components';
-import { theme, mixins, media, Section, Heading } from '@styles';
-const { colors, fontSizes, fonts } = theme;
+import { mixins, media, Section, Heading } from '@styles';
 
 const StyledContainer = styled(Section)`
   text-align: center;
@@ -14,24 +13,7 @@ const StyledContainer = styled(Section)`
     ${mixins.inlineLink};
   }
 `;
-const StyledHeading = styled(Heading)`
-  display: block;
-  color: ${colors.green};
-  font-size: ${fontSizes.md};
-  font-family: ${fonts.SFMono};
-  font-weight: normal;
-  margin-bottom: 20px;
-  justify-content: center;
-  ${media.desktop`font-size: ${fontSizes.sm};`};
-  &:before {
-    bottom: 0;
-    font-size: ${fontSizes.sm};
-    ${media.desktop`font-size: ${fontSizes.smish};`};
-  }
-  &:after {
-    display: none;
-  }
-`;
+const StyledHeading = styled(Heading)``;
 const StyledTitle = styled.h4`
   margin: 0 0 20px;
   font-size: 60px;
@@ -51,7 +33,7 @@ const Contact = ({ data }) => {
 
   return (
     <StyledContainer id="contact" ref={revealContainer}>
-      <StyledHeading>What&apos;s Next?</StyledHeading>
+      <StyledHeading>Interested?</StyledHeading>
 
       <StyledTitle>{title}</StyledTitle>
 
