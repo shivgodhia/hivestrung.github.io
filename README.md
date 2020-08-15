@@ -28,7 +28,9 @@ Changing basic like colours was simple enough, though I refactored the code a li
 
 I did have to spend quite a bit of time changing the loading animation to use `S` instead of `B` - I was introduced to the concept of [Scalable Vector Graphics (SVG)](https://developer.mozilla.org/en-US/docs/Web/SVG), in particular, SVG paths. In short, SVG paths are basically a way to draw graphics on the fly. So, instead of loading an image like a JPEG, it's actually taking a sequence of instructions and drawing the graphics out, which was really cool but also really difficult to do myself. I used [this neat website](https://danmarshall.github.io/google-font-to-svg-path/) to convert `S` to an SVG path.
 
-Deploying was different from what I was used to. For my previous site, I simply had to push to master and it would update. Gatsby works a little differently, but using [this helpful guide](https://www.gatsbyjs.com/docs/how-gatsby-works-with-github-pages/) had me sorted in 15 minutes. Now, development has to be done in a branch not named master, and once I'm happy with my site, I have to run `npm run deploy` to deploy it. It means that pushing changes and deployment are separate; deployment can be done without even pushing my changes, and I can push without deploying.
+Deploying was different from what I was used to. For my previous site, I simply had to push to master and it would update. Gatsby works a little differently, but using [this helpful guide](https://www.gatsbyjs.com/docs/how-gatsby-works-with-github-pages/) had me sorted in 15 minutes.
+
+Now, development has to be done in a branch not named master, and once I'm happy with my site, I have to run `npm run deploy` to deploy it. It means that pushing changes and deployment are separate; deployment can be done without even pushing my changes, and I can push without deploying. I figured that if I'm deploying, I will always want to push my changes, so instead of the script `gatsby build && gh-pages -d public -b master` being called when running `npm run deploy`, I set it to run `git push && gatsby build && gh-pages -d public -b master`.
 
 ## 🗺️ Roadmap
 
