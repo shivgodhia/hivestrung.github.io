@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Onboard Buddy Alexa Skill'
 cover: './OnboardBuddy-demo.png'
 github: 'https://github.com/Skyr-High-Labs/alexa-hackathon-2020'
@@ -12,4 +12,6 @@ tech:
 showInProjects: true
 ---
 
-Onboard Buddy is a comprehensive smart flashcard tool for incoming Amazon interns. Comes preloaded with a set of flashcards for [Amazon Leadership Principles](https://www.amazon.jobs/en/principles) and the [AWS](https://aws.amazon.com) Foundations Course. The flashcard algorithm based on the [Supermemo algorithm](https://www.supermemo.com/en) automatically schedules flashcards to maximise retention. Besides questions and answers, it supports hints and explanations, and querying specific flashcards all by asking to Alexa.
+Onboard Buddy is a comprehensive smart flashcard tool for incoming Amazon interns. Comes preloaded with a set of flashcards for [Amazon Leadership Principles](https://www.amazon.jobs/en/principles) and the [AWS](https://aws.amazon.com) Foundations Course.
+
+Our flashcard algorithm, based on the [Supermemo algorithm](https://www.supermemo.com/en) automatically schedules flashcards to maximise retention. Besides questions and answers, it supports hints and explanations, and querying specific flashcards all by talking to Alexa.
