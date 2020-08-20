@@ -1,7 +1,7 @@
 ---
 title: 'Hi, my name is'
 name: 'Shiv Godhia'
-subtitle: "I'm an aspiring SWE."
+subtitle: 'I build high-quality, maintainable software.'
 buttonText: 'Get In Touch'
 ---
 
