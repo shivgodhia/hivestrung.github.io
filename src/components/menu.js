@@ -107,10 +107,7 @@ const Menu = ({ menuOpen, toggleMenu }) => {
                 </NavListItem>
               ))}
           </NavList>
-          <ResumeLink
-            href="/Shiv_Gunter_Godhia_CV.pdf"
-            target="_blank"
-            rel="nofollow noopener noreferrer">
+          <ResumeLink href="/Shiv_Godhia_CV.pdf" target="_blank" rel="nofollow noopener noreferrer">
             CV
           </ResumeLink>
         </NavLinks>
