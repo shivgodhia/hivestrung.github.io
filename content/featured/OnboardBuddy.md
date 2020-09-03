@@ -3,7 +3,7 @@ date: '1'
 title: 'Onboard Buddy Alexa Skill'
 cover: './OnboardBuddy-demo.png'
 github: 'https://github.com/Skyr-High-Labs/alexa-hackathon-2020'
-external: 'https://can1b.awsapps.com/workdocs/index.html#/share/document/ddc28d044f9b295fa72a537b509cfd2e9a83b3434fcf87c8050559649a71acec'
+external: 'https://xathon.mettl.com/event/internshackathon2020'
 tech:
   - Alexa Skills Kit
   - YagMail
@@ -16,4 +16,4 @@ Onboard Buddy is a comprehensive smart flashcard tool for incoming Amazon intern
 
 Our flashcard algorithm, based on the [Supermemo algorithm](https://www.supermemo.com/en), automatically schedules flashcards to maximise retention. Besides questions and answers, it supports hints and explanations, and querying specific flashcards all by talking to Alexa.
 
-_Please note, unfortunately the code on GitHub can't be made public yet for confidentiality reasons, but we are working on a way to showcase our effort. In the meantime, the [demo](https://can1b.awsapps.com/workdocs/index.html#/share/document/ddc28d044f9b295fa72a537b509cfd2e9a83b3434fcf87c8050559649a71acec) is still working_
+_Please note, unfortunately the code on GitHub can't be made public yet for confidentiality reasons, but we are working on a way to showcase our effort._
