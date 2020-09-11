@@ -142,7 +142,34 @@ const StyledJobTitle = styled.h4`
 const StyledCompany = styled.span`
   color: ${colors.green};
 `;
-const StyledJobDetails = styled.h5`
+const StyledTechList = styled.ul`
+//   position: relative;
+//   z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+//   padding: 0;
+//   margin: 25px 15px 10px;
+//   list-style: none;
+  
+
+  li {
+    font-family: ${fonts.SFMono};
+    font-size: ${fontSizes.smish};
+    color: ${colors.lightSlate};
+    margin-right: ${theme.margin};
+    
+//     margin-bottom: 7px;
+//     white-space: nowrap;
+//     &:last-of-type {
+//       margin-right: 0;
+//     }
+//     ${media.thone`
+//       color: ${colors.lightSlate};
+//       margin-right: 10px;
+//     `};
+  }
+`;
+const StyledJobDates = styled.h5`
   font-family: ${fonts.SFMono};
   font-size: ${fontSizes.smish};
   font-weight: normal;
@@ -223,7 +250,7 @@ const Jobs = ({ data }) => {
         {data &&
           data.map(({ node }, i) => {
             const { frontmatter, html } = node;
-            const { title, url, company, range } = frontmatter;
+            const { title, url, company, range, tech } = frontmatter;
             return (
               <StyledTabContent
                 key={i}
@@ -242,9 +269,16 @@ const Jobs = ({ data }) => {
                     </a>
                   </StyledCompany>
                 </StyledJobTitle>
-                <StyledJobDetails>
+                <StyledJobDates>
                   <span>{range}</span>
-                </StyledJobDetails>
+                </StyledJobDates>
+                {tech && (
+                  <StyledTechList>
+                    {tech.map((tech, i) => (
+                      <li key={i}>{tech}</li>
+                    ))}
+                  </StyledTechList>
+                )}
                 <div dangerouslySetInnerHTML={{ __html: html }} />
               </StyledTabContent>
             );

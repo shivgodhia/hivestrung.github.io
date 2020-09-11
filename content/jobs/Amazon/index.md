@@ -5,6 +5,14 @@ company: 'Amazon'
 location: 'Cambrige, England'
 range: 'Jun - Sep 2020'
 url: 'https://www.amazon.jobs/en/business_categories/alexa'
+tech:
+  - Java
+  - ANTLR
+  - Guava
+  - Guice
+  - Lombok
+  - JUnit
+  - SLF4J
 ---
 
 I worked on Alexa in the Answer Generation Team as part of a 12-week summer internship
