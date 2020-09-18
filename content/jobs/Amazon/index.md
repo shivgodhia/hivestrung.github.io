@@ -9,6 +9,6 @@ url: 'https://www.amazon.jobs/en/business_categories/alexa'
 
 I worked on Alexa in the Answer Generation Team as part of a 12-week summer internship
 
-- Worked in [ANTLR](https://www.antlr.org/) to implement a strong type system for a domain-specific language used for generating natural language
-- Proposed backwards-compatible syntax change and implemented it by updating parser and lexer rules, internal data structures used for representing the language, and the parser used to populate these representations
-- Implemented compiler validations for type checking in Java, making extensive use of [Guava](https://github.com/google/guava), [Guice](https://github.com/google/guice), [Lombok](https://projectlombok.org/) and [JUnit tests](https://junit.org/junit5/)
+- Worked in [ANTLR](https://www.antlr.org/) to implement a strong type system for a custom internal domain-specific language (DSL) used for generating natural language in production systems (Alexa uses the output sentences to answer users’ questions).
+- Proposed backwards-compatible syntax change for optional type specification and implemented it by updating parser and lexer rules, internal data structures used for representing the DSL and the parser used to populate these representations.
+- Worked in [Java](https://www.java.com/en/) to implement DSL compiler validations for static type checking, making extensive use of [Guava](https://github.com/google/guava), [Guice](https://github.com/google/guice), [Lombok](https://projectlombok.org/) and [JUnit tests](https://junit.org/junit5/)
