@@ -9,11 +9,11 @@ module.exports = {
   name: 'Shiv Godhia',
   location: 'Cambridge, UK',
   email: 'shivgodhia@gmail.com',
-  github: 'https://github.com/hivestrung',
+  github: 'https://github.com/shivgodhia',
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/hivestrung',
+      url: 'https://github.com/shivgodhia',
     },
     {
       name: 'Linkedin',
@@ -21,11 +21,11 @@ module.exports = {
     },
     {
       name: 'Instagram',
-      url: 'https://www.instagram.com/hivestrung',
+      url: 'https://www.instagram.com/shivgodhia',
     },
     {
       name: 'Facebook',
-      url: 'https://www.facebook.com/hivestrung',
+      url: 'https://www.facebook.com/shivgodhia',
     },
   ],
 
