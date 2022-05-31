@@ -110,7 +110,7 @@ const ArchivePage = ({ location, data }) => {
     <Layout location={location}>
       <Helmet>
         <title>Projects Archive</title>
-        <link rel="canonical" href="https://shivgodhia.tech/archive" />
+        <link rel="canonical" href="https://shivgodhia.com/archive" />
       </Helmet>
 
       <StyledMainContainer>

@@ -4,7 +4,7 @@ module.exports = {
     'Shiv Godhia is a Computer Scientist and Software Engineer from the University of Cambridge',
   siteKeywords:
     'Shiv, Gunter, Godhia, hivestrung, software engineer, SWE, SDE, Amazon, cambridge, compsci',
-  siteUrl: 'https://www.shivgodhia.tech/',
+  siteUrl: 'https://www.shivgodhia.com/',
   siteLanguage: 'en_UK',
   name: 'Shiv Godhia',
   location: 'Cambridge, UK',

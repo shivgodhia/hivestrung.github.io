@@ -2,16 +2,16 @@
 title: 'About Me'
 avatar: './me.jpg'
 skills:
-  - Java
   - Python
+  - Java
   - C, C++
   - SML
   - SQL
   - R
 ---
 
-Hello! I’m Shiv, an undergraduate studying [Computer Science](https://www.cst.cam.ac.uk/teaching) at the [University of Cambridge](https://www.cam.ac.uk/). Over the summer, I interned at [Amazon's Alexa team](https://www.amazon.jobs/en/business_categories/alexa) in Cambridge, UK.
+Hello! I’m Shiv Godhia, a Software Engineer [@Two Sigma](https://www.twosigma.com) where I work on engineering challenges in Machine Learning .
 
-Having done well in a number of hackathons, it's no secret that I really enjoy solving old problems by inventing new things. I'm also deeply passionate about delivering a great experience to the user. Naturally, I'm keen on being a Software Engineer.
+Previously, I studied [Computer Science](https://www.cst.cam.ac.uk/teaching) [@University of Cambridge](https://www.cam.ac.uk/) and interned [@Amazon](https://www.amazon.jobs/en/business_categories/alexa) in their Alexa team in Cambridge (UK), [@ScopeNewsLtd](https://scopenews.co.uk/get), [@DataProphet](https://dataprophet.com/) and [@A\*STAR](https://www.a-star.edu.sg/i2r).
 
-Here are a few technologies I've worked with. I am particularly skilled in Java and Python, and pick up new languages quite quickly.
+Here are a few technologies I've worked with.

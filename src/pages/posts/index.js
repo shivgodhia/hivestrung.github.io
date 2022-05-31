@@ -124,7 +124,7 @@ const PostsPage = ({ location, data }) => {
     <Layout location={location}>
       <Helmet>
         <title>Posts</title>
-        <link rel="canonical" href="https://shivgodhia.tech/posts" />
+        <link rel="canonical" href="https://shivgodhia.com/posts" />
       </Helmet>
 
       <StyledMainContainer>

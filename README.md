@@ -2,10 +2,10 @@
   <img alt="Logo" src="./src/images/logo.png" width="100" />
 </div>
 <h1 align="center">
-  shivgodhia.tech
+  shivgodhia.com
 </h1>
 <p align="center">
-  My personal website, <a href="https://shivgodhia.tech" target="_blank">shivgodhia.tech</a>
+  My personal website, <a href="https://shivgodhia.com" target="_blank">shivgodhia.com</a>
   <br>
   Built with <a href="https://www.gatsbyjs.org/" target="_blank">Gatsby</a> and hosted with <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>, credits go to <a href="https://brittanychiang.com" target="_blank">brittanychiang.com</a> for the awesome website
 </p>

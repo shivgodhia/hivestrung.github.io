@@ -5,6 +5,6 @@ subtitle: 'I build software.'
 buttonText: 'Get In Touch'
 ---
 
-I’m an undergraduate in my final year [@UniversityOfCambridge](https://www.cam.ac.uk/), studying [Computer Science](https://www.cst.cam.ac.uk/teaching).
+I'm a Software Engineer working [@Two Sigma](https://www.twosigma.com).
 
-Previously I have worked [@Amazon](https://www.amazon.jobs/en/business_categories/alexa), [@ScopeNewsLtd](https://scopenews.co.uk/get), [@DataProphet](https://dataprophet.com/) and [@A\*STAR](https://www.a-star.edu.sg/i2r).
+Previously, I studied Computer Science [@UniversityOfCambridge](https://www.cam.ac.uk/) and interned [@Amazon](https://www.amazon.jobs/en/business_categories/alexa).
